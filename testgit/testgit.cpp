@@ -6,6 +6,7 @@
 void setup()
 {
 int b = 10;
+
 // Add your initialization code here
 }
 
