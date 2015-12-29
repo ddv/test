@@ -5,6 +5,7 @@
 //The setup function is called once at startup of the sketch
 void setup()
 {
+ int a = 1;
 // Add your initialization code here
 }
 
