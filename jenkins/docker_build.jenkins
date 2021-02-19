@@ -12,6 +12,12 @@ pipeline {
         timestamps()
     }
     stages {
+        
+        stage("build ant") {
+            withAnt {
+                echo " ============== start ANT building  =================="
+            }
+        }
         stage("create docker image") {
             steps {
                 echo " ============== start building image =================="
