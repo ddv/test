@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage("build ant") {
             steps {
-                withAnt {
+                withAnt ( installation: 'ant-default') {
                     echo " ============== start ANT building  =================="
                     sh "ant build"
                 }
