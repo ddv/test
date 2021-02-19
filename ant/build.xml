@@ -1,0 +1,6 @@
+<project basedir="." default="build" name="test">
+  <target name="build">
+    <echo>Build-By : ${user.name} (${today}) </echo>
+		<echo>Build-Number : ${revision.max}</echo>
+	</target>
+</project>
